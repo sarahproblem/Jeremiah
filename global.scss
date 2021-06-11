@@ -1,0 +1,18 @@
+@import 'variables';
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 81.25rem;
+  padding: 0 1.5rem;
+  width: 100%;
+  
+  &__wide {
+    max-width: 100rem;
+    width: 100%;
+  }
+  
+  &__narrow {
+    max-width: 60rem;
+    width: 100%;
+  }
+}
