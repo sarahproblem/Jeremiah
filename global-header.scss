@@ -1,0 +1,19 @@
+@import 'variables';
+
+.global-header {
+  background-color: $accentColorPale;
+  color: $accentColorDark;
+  left: 0;
+  position: fixed;
+  right: 0;
+
+  &_layout {
+    display: flex;
+    flex-direction: column;
+    min-height: $headerHeight;
+  }
+  
+  &_item {
+    list-style-type: none;
+  }
+}
